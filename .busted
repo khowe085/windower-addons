@@ -1,0 +1,10 @@
+return {
+  default = {
+    -- Run every *_spec.lua under tests/.
+    ROOT = { "tests" },
+    pattern = "_spec",
+    -- Resolve require paths from the repo root and from each addon's own dir,
+    -- so `require('lib.status')` works in both tests and the addon at runtime.
+    lpath = "./?.lua;./?/init.lua;./example/?.lua",
+  },
+}

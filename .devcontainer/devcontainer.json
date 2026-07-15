@@ -6,7 +6,8 @@
     "source=\\\\wsl.localhost\\FedoraLinux-44\\tmp\\ssh-agent.sock,target=/tmp/ssh-agent.sock,type=bind"
   ],
   "remoteEnv": {
-    "SSH_AUTH_SOCK": "/tmp/ssh-agent.sock"
+    "SSH_AUTH_SOCK": "/tmp/ssh-agent.sock",
+    "GH_TOKEN": "${localEnv:GH_TOKEN}"
   },
   "customizations": {
     "vscode": {

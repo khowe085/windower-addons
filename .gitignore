@@ -4,3 +4,10 @@
 # Claude memory (personal, generated at runtime)
 .claude/memory/
 .claude/worktrees/
+
+# Windower addon user settings — created at runtime, never committed
+*/data/
+
+# Packaging output (see .github/workflows/package.yml)
+/dist/
+/*.zip
